@@ -4,66 +4,57 @@ export default {
     type: 'document',
     fields: [
         {
-            name : 'image',
-            title : 'Image',
-            type : 'image',
+            name: 'image',
+            title: 'Image',
+            type: 'image',
             options: {
                 hotspot: true,
             },
         },
-
         {
-            name : 'buttonText',
-            title : 'ButtonText',
-            type : 'string',
-        },
-
-        {
-            product : 'product',
-            title : 'Tittle',
-            type : 'string',
-        },
-
-        {
-            name : 'desc',
-            title : 'Desc',
+            name: 'buttonText',
+            title: 'ButtonText',
             type: 'string',
         },
-
         {
-            name : 'smallText',
-            title : 'SmallText',
-            type : 'string',
+            name: 'product',
+            title: 'Product',
+            type: 'string',
         },
-
         {
-            name : 'midText',
-            title : 'MidText',
-            type : 'string',
+            name: 'desc',
+            title: 'Desc',
+            type: 'string',
         },
-
         {
-            name : 'largeText1',
-            title : 'LargeText1',
-            type : 'string',
+            name: 'smallText',
+            title: 'SmallText',
+            type: 'string',
         },
-
         {
-            name : 'largeText2',
-            title : 'LargeText2',
-            type : 'string',
+            name: 'midText',
+            title: 'MidText',
+            type: 'string',
         },
-
         {
-            name : 'discount',
-            title : 'Discount',
-            type : 'string',
+            name: 'largeText1',
+            title: 'LargeText1',
+            type: 'string',
         },
-
         {
-            name : 'saleTime',
-            title : 'SaleTime',
-            type : 'string'
+            name: 'largeText2',
+            title: 'LargeText2',
+            type: 'string',
+        },
+        {
+            name: 'discount',
+            title: 'Discount',
+            type: 'string',
+        },
+        {
+            name: 'saleTime',
+            title: 'SaleTime',
+            type: 'string',
         },
     ],
-};
+  };
