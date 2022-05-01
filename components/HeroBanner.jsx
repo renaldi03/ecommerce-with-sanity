@@ -2,8 +2,8 @@ import React from 'react'
 
 const HeroBanner = () => {
     return (
-        <div>HeroBenner</div>
+        <div>Footer</div>
     )
-} 
+}
 
 export default HeroBanner
