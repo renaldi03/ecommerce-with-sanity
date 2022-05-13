@@ -4,8 +4,10 @@ import { Layout } from '../components';
 
 function MyApp({ Component, pageProps }) {
   return (
-   
-      <Component {...pageProps} />
+   <Layout>
+     <Component {...pageProps} />
+   </Layout>
+    
    
   
   )
